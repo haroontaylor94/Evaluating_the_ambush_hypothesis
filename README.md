@@ -1,4 +1,4 @@
-# Evaluating_the_ambush_hypothesis
+# Evaluating the ambush hypothesis
 
 ### Overview
 
