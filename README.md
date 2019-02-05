@@ -2,7 +2,7 @@
 
 ### Overview
 
-This repository contains Python code that I wrote for my BSc thesis: Evaluating the ambush hypothesis using data from 744 bacterial genomes. This worked was completed at the University of Bath in 2017.
+This repository contains Python and R code that I wrote for my BSc thesis: 'Evaluating the ambush hypothesis using data from 744 bacterial genomes'. This worked was completed at the University of Bath in 2017.
 
 
 ### Abstract 
