@@ -18,7 +18,7 @@ This research presents arguments for and against the ambush hypothesis and highl
 
 ### Scripts
 
-**OSC_analysis.py** contains functions to:
+[**OSC_analysis.py**](OSC_analysis.py) contains functions to:
 
 1) Read in embl genome files and extract CDS regions
 2) Check that sequences are true protein CDSs
