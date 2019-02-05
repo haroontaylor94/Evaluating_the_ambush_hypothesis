@@ -27,5 +27,5 @@ This research presents arguments for and against the ambush hypothesis and highl
 5) Calculate GC and GC3 contents
 6) Calculate OSC intervals
 
-**Execution_script.py** contains code to excute functions in **OSC_analysis.py** and write out to a results file.
-**OSC_analysis_visualisations.R** contains code to create all of the graphs made from the output of the OSC Analysis.
+[**Execution_script.py**](Execution_script.py) contains code to excute functions in [**OSC_analysis.py**](OSC_analysis.py) and write out to a results file.
+[**OSC_analysis_visualisations.R**](OSC_analysis_visualisations.R) contains code to create all of the graphs made from the output of the OSC Analysis.
