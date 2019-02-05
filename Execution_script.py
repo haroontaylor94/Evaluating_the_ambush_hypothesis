@@ -9,7 +9,11 @@ for directory in ['../filtered_genomes_table_11', '../bacterial_genomes_table_4'
     output_file_path = output_dir + '/Table_' + str(translation_table) + '_results.csv'
     with open(output_file_path, 'w') as outfile: 
         header = 
-'File_name,Plus_1_OSC_percentage,Plus_1_OSC_simulation_mean,' \ 'Plus_1_OSC_simulation_stdev,Plus_2_OSC_percentage,Plus_2_OSC_simulation_mean,' \ 'Plus_2_OSC_simulation_stdev,Total_OSC_percentage,Total_OSC_simulation_mean,' \ 'Total_OSC_simulation_stdev,GC_content,GC3_content,OSC_gap_mean,OSC_gap_stdev,' \ 'Sequence_length\n' 
+'File_name,Plus_1_OSC_percentage,Plus_1_OSC_simulation_mean,' \ 
+'Plus_1_OSC_simulation_stdev,Plus_2_OSC_percentage,Plus_2_OSC_simulation_mean,' \ 
+'Plus_2_OSC_simulation_stdev,Total_OSC_percentage,Total_OSC_simulation_mean,' \ 
+'Total_OSC_simulation_stdev,GC_content,GC3_content,OSC_gap_mean,OSC_gap_stdev,' \ 
+'Sequence_length\n' 
         outfile.write(header)
         for file in os.listdir(directory):
             input_file_path = directory + file
